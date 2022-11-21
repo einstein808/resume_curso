@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Owsd-bold;
+    src: url(/assets/fonts/oswald/Oswald-Bold.ttf);
+ }
+ @font-face {
+    font-family: Owsd-r;
+    src: url(/assets/fonts/oswald/Oswald-Regular.ttf);
+ }
+ @font-face {
+    font-family: corgete;
+    src: url(/assets/fonts/courgette/Courgette-Regular.ttf);
+ }
+
+.nav-bar{padding: 1.5rem 6rem;font-family: Owsd-bold;}
+.nav-item{margin-right: 20px;
+    font-size: 25px;
+}
+.nav-link-contato{
+    text-decoration: none;
+}
+.landpaging img{
+    width: 1000px;
+    height: 1080px;
+}
+.nav-link .nav-link-contato{
+    font-family:corgete;
+}
+.logo-ham{
+    width: 4rem;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 900px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+        margin-right: 70px;
+        
+    }
+    .nav-bar h1{
+        font-size: 200px;
+    }
+    
+    .open{
+        display: block;
+    }
+    
+    
+}
+@media screen and (max-width: 1250px){
+    .nav-item{
+        font-size: 15px;
+    }
+    .nav-bar h1{
+        font-size: 24px;
+    }
+}
+.main-land{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.imagem-perfil{margin-top: -170px;}
+.imagem-perfil img{
+    width: 500px;
+    height: 500px;
+}
+.land-rigth{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.land-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -150px;
+    color: whitesmoke;
+}
+.land-left h1{
+    font-family: Owsd-bold;
+}
+.land-left p{font-family: Owsd-regular;}
+.text-card{
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+.text-card button{
+    font-family: Owsd-bold;
+    font-size: 22px;
+    height: 50px;
+}
+ .logo{
+    color: whitesmoke;
+}
+.nav-list a{
+   color: whitesmoke;
+}
+.text-card{
+    text-align: left;
+}
+.land-left .btn{
+    width: 60%;
+    height:60px;
+    stroke: black;
+    padding-top: -40px;
+    letter-spacing:5px
+    
+}
+.gradient-custom {
+    background: rgb(0,121,255);
+    background: linear-gradient(121deg, rgba(0,121,255,1) 0%, rgba(9,9,121,1) 56%, rgba(2,0,36,1) 100%);
+  }
+.active{
+    border-bottom: 1px solid white;
+}
+.b-shadow{
+    -webkit-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.5);
+}
+.main-mim{
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 24px;
+    font-family: Owosd-r;
+    font-size: 20px;
+    text-align: right;
+    line-height: 40px;
+    padding-right: 25px;
+    z-index:2
+    -webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 30px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 30px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+    
+    
+}
+
+
+
+.raiz{
+    justify-content: center;
+    margin-top: -200px;
+    width: 300px;
+    align-items: center;
+    
+    -webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 30px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 30px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+color: whitesmoke;
+font-family: Owsd-bold;
+padding-top: 10px;
+
+    
+    
+
+}
+.img-cidade{
+    width: 33%;
+
+}
+.img-cidade img{
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+    margin-left: 60px;
+    margin-top: 20px;
+ 
+    
+}
+.logo-minas{
+    padding-right: 40px;
+    justify-content: left;
+    width:33%;
+    padding-right: 180px;
+}
+.logo-minas img{
+    width: 100px;
+    height: 100px;
+}
+.text-mim{
+
+    width: 33%;
+}
+
+
